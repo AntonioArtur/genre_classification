@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.13.0-35-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-03-12T21:52:07.619828",
+    "startedAt": "2022-03-12T21:52:06.151757",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/artur/Documents/ML-DevOps/genre_classification/outputs/2022-03-12/18-46-26/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/AntonioArtur/genre_classification.git",
+        "commit": "43b72957a47fe46fd6543beff56b76e3c872c57d"
+    },
+    "email": "antonio.moura@dellead.com",
+    "root": "/home/artur/Documents/ML-DevOps/genre_classification",
+    "host": "artur-G5-5590",
+    "username": "artur",
+    "executable": "/home/artur/miniconda3/envs/mlflow-cdffe8970f31d97fee8e1adbbcf97781683487cf/bin/python"
+}

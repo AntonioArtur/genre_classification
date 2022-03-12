@@ -1,0 +1,15 @@
+artifact_uri: file:///home/artur/Documents/ML-DevOps/genre_classification/mlruns/0/181b8d288c3f4979b3e0006466d4a31c/artifacts
+end_time: 1647121378195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 181b8d288c3f4979b3e0006466d4a31c
+run_uuid: 181b8d288c3f4979b3e0006466d4a31c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1647121375906
+status: 4
+tags: []
+user_id: artur

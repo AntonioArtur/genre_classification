@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.13.0-35-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-03-12T21:49:59.034681",
+    "startedAt": "2022-03-12T21:49:57.043142",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/AntonioArtur/genre_classification.git",
+        "commit": "43b72957a47fe46fd6543beff56b76e3c872c57d"
+    },
+    "email": "antonio.moura@dellead.com",
+    "root": "/home/artur/Documents/ML-DevOps/genre_classification",
+    "host": "artur-G5-5590",
+    "username": "artur",
+    "executable": "/home/artur/miniconda3/envs/mlflow-a5d6287c554e2802ec33ef88f4b1da143b072ea0/bin/python"
+}

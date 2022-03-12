@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.13.0-35-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-03-12T21:45:30.524860",
+    "startedAt": "2022-03-12T21:45:28.875752",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/AntonioArtur/genre_classification.git",
+        "commit": "43b72957a47fe46fd6543beff56b76e3c872c57d"
+    },
+    "email": "antonio.moura@dellead.com",
+    "root": "/home/artur/Documents/ML-DevOps/genre_classification",
+    "host": "artur-G5-5590",
+    "username": "artur",
+    "executable": "/home/artur/miniconda3/envs/mlflow-9fc784f6eab5e449482fc6f5a6c913eea2d97bd5/bin/python"
+}
